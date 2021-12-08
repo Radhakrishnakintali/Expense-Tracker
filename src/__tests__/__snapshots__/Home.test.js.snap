@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fire event 1`] = `
+<div>
+  <div>
+     Cash Flow Chart
+  </div>
+  <div
+    data-testid="transactionListData"
+  >
+    <h3>
+      History
+    </h3>
+    <ul
+      class="list"
+      id="list"
+    >
+      <li
+        class="plus"
+        data-testid="transaction0"
+      >
+        Salary
+         
+        <span>
+          +
+          $
+          300
+        </span>
+        <button
+          class="delete-btn"
+          data-testid="btntransaction0"
+        >
+          x
+        </button>
+        <button
+          type="button"
+        >
+          Edit
+        </button>
+      </li>
+      <li
+        class="minus"
+        data-testid="transaction1"
+      >
+        Book
+         
+        <span>
+          -
+          $
+          10
+        </span>
+        <button
+          class="delete-btn"
+          data-testid="btntransaction1"
+        >
+          x
+        </button>
+        <button
+          type="button"
+        >
+          Edit
+        </button>
+      </li>
+      <li
+        class="plus"
+        data-testid="transaction2"
+      >
+        Camera
+         
+        <span>
+          +
+          $
+          150
+        </span>
+        <button
+          class="delete-btn"
+          data-testid="btntransaction2"
+        >
+          x
+        </button>
+        <button
+          type="button"
+        >
+          Edit
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div
+    data-testid="addTransaction"
+  >
+    <h3>
+      Add new transaction
+    </h3>
+    <form
+      id="form"
+    >
+      <div
+        class="form-control"
+      >
+        <label
+          for="text"
+        >
+          Text
+        </label>
+        <input
+          id="text"
+          placeholder="Enter text..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-control"
+      >
+        <label
+          for="amount"
+        >
+          Amount 
+          <br />
+          (negative - expense, positive - income)
+        </label>
+        <input
+          id="amount"
+          placeholder="Enter amount..."
+          type="number"
+          value="0"
+        />
+      </div>
+      <button
+        class="btn"
+        data-testid="btnAddTransaction"
+      >
+        Add transaction
+      </button>
+    </form>
+  </div>
+</div>
+`;

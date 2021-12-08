@@ -1,0 +1,16 @@
+{
+    "welcome_to_react": "Welcome to React and react-i18next",
+    "expense_tracker": "تعقب المصاريف",
+    "add_new_transaction": "أضف معاملة جديدة",
+    "text": "نص",
+    "amount": "كمية",
+    "add_transaction": "أضف معاملة",
+    "history": "تاريخ",
+    "enter_text": "أدخل النص",
+    "enter_amount": "أدخل المبلغ",
+    "negative": "نفي",
+    "positive": "إيجابي",
+    "expense": "مصروف",
+    "income": "الإيرادات",
+    "financial_flow_chart":"مخطط التدفق المالي"
+}

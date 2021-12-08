@@ -1,0 +1,15 @@
+{
+    "welcome_to_react": "french language and react-i18next",
+    "expense_tracker": "Suivi des dépenses",
+    "add_new_transaction": "Ajouter une nouvelle opération",
+    "text": "Texte",
+    "amount": "Montante",
+    "add_transaction": "Ajouter une opération",
+    "history": "Histoire",
+    "enter_text": "Entrez du texte",
+    "negative": "négative",
+    "positive": "positif",
+    "expense": "frais",
+    "income": "le revenu",
+    "financial_flow_chart":"Organigramme financier"
+}

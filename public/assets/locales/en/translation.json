@@ -1,0 +1,16 @@
+{
+    "welcome_to_react": "Welcome to React and react-i18next",
+    "expense_tracker": "Expense Tracker",
+    "add_new_transaction": "Add new transaction",
+    "text": "Text",
+    "amount": "Amount",
+    "add_transaction": "Add transaction",
+    "history": "History",
+    "enter_text": "Enter text",
+    "enter_amount": "Enter amount",
+    "negative": "negative",
+    "positive": "positive",
+    "expense": "expense",
+    "income": "income",
+    "financial_flow_chart":"Financial Flow Chart"
+}
