@@ -1,5 +1,5 @@
 import React from 'react';
-import { AddTransaction } from './AddTransaction';
+//import { AddTransaction } from './AddTransaction';
 import { TransactionList } from './TransactionList';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
             width: "100%"
         }}>
             <TransactionList />
-            <AddTransaction />
+            {/* <AddTransaction transaction={transaction}/> */}
         </div>
     )
 };

@@ -13,6 +13,7 @@ export const Transaction = (props) => {
         updateTransaction = props.transactions.filter(transaction => transaction.id === id)
         //localStorage.setItem('updateTransaction', transaction);
         //console.log(transaction);
+        props.getData(updateTransaction);
     }
     useEffect(() => {
         localStorage.setItem('updateTransaction', JSON.stringify(updateTransaction))

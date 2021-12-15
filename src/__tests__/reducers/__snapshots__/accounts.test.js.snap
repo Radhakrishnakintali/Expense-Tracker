@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`returns the correct state 1`] = `
+Object {
+  "transactions": Array [
+    Object {
+      "amount": -1000,
+      "id": 1,
+      "text": "Flower",
+    },
+    Object {
+      "amount": 2000,
+      "id": 2,
+      "text": "Salary",
+    },
+    Object {
+      "amount": -100,
+      "id": 3,
+      "text": "Book",
+    },
+    Object {
+      "amount": 750,
+      "id": 4,
+      "text": "Camera",
+    },
+    Object {
+      "amount": 200,
+      "id": 5,
+      "text": "data",
+    },
+  ],
+}
+`;

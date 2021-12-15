@@ -19,26 +19,23 @@ style = {{
 export const MysteriousSankey = (props) => {
     const { data, width, height } = props;
     const { nodes, links } = sankey()
-    .nodeWidth(15)
-    .nodePadding(10)
-    .extent([[1, 1], [width - 1, height - 5]])(data);
+                                .nodeWidth(15)
+                                .nodePadding(10)
+                                .extent([[1, 1], [width - 1, height - 5]])(data);
 
     const color = chroma.scale('Set3').classes(nodes.length)
     const colorScale = d3
-    .scaleLinear()
-    .domain([0, nodes.length])
-    .range([0,1])
+                        .scaleLinear()
+                        .domain([0, nodes.length])
+                        .range([0,1])
 
-    //const layout = sankey()(data); 
-    //console.log(nodes[0])
-    //const sankey = d3Sankey(data);
     return (
     <g style={{mixBlendMode: "multiply"}}>
         {nodes.map( (node, i) => (
             <Sankeynode {...node} color={color(colorScale(i)).hex()} key={node.name}/>
         ))}
         {links.map( (link, i) => (
-            <Sankeylink link= {link} color={color(colorScale(link.source.index)).hex()} />
+            <Sankeylink key={i} link= {link} color={color(colorScale(link.source.index)).hex()} />
         ))}
     </g>)
 }

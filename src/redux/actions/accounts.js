@@ -15,3 +15,12 @@ export function addTransaction(transaction){
         });
     }
 }
+
+export function updateTransaction(updatedTransaction) {
+    return (dispatch) => {
+        dispatch({
+            type: "UPDATE_TRANSACTION",
+            payload: updatedTransaction
+        });
+    }
+}

@@ -1,5 +1,255 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Dispatches the correct action and payload1 1`] = `
+Array [
+  Object {
+    "payload": 1,
+    "type": "DELETE_TRANSACTION",
+  },
+]
+`;
+
+exports[`delete fire event 1`] = `
+<div
+  style="width: 100%;"
+>
+  <div>
+    <div
+      data-testid="transactionListData"
+    >
+      <div
+        width="100%"
+      >
+        <div
+          class="font-weight-normal mb-2"
+          style="padding-top: 20px;"
+        >
+          financial_flow_chart
+        </div>
+        <svg
+          height="600px"
+          style="margin: auto; display: block;"
+          width="600px"
+        >
+          <g
+            style="mix-blend-mode: multiply;"
+          >
+            <rect
+              fill="#8dd3c7"
+              height="583.9999999999998"
+              width="15"
+              x="292.5"
+              y="3.794193362993041"
+            >
+              <title>
+                Budget
+              </title>
+            </rect>
+            <rect
+              fill="#a9a1b3"
+              height="424.72727272727263"
+              width="15"
+              x="1"
+              y="1"
+            >
+              <title>
+                Salary
+              </title>
+            </rect>
+            <rect
+              fill="#f0d1e1"
+              height="21.23636363636365"
+              width="15"
+              x="584"
+              y="3.858254561310341"
+            >
+              <title>
+                Book
+              </title>
+            </rect>
+            <rect
+              fill="#ffed6f"
+              height="159.27272727272714"
+              width="15"
+              x="1"
+              y="435.72727272727263"
+            >
+              <title>
+                Camera
+              </title>
+            </rect>
+            <path
+              d="M16,213.36363636363637C154.25,213.36363636363637,154.25,216.15782972662942,292.5,216.15782972662942"
+              fill="lightgrey"
+              style="fill: none; stroke-opacity: 0.5; stroke: #a9a1b3; stroke-width: 424.72727272727275;"
+            >
+              <title>
+                2000
+              </title>
+            </path>
+            <path
+              d="M307.5,14.412375181174859C445.75,14.412375181174859,445.75,14.47643637949216,584,14.47643637949216"
+              fill="lightgrey"
+              style="fill: none; stroke-opacity: 0.5; stroke: #8dd3c7; stroke-width: 21.236363636363638;"
+            >
+              <title>
+                100
+              </title>
+            </path>
+            <path
+              d="M16,515.3636363636363C154.25,515.3636363636363,154.25,508.1578297266294,292.5,508.1578297266294"
+              fill="lightgrey"
+              style="fill: none; stroke-opacity: 0.5; stroke: #ffed6f; stroke-width: 159.27272727272728;"
+            >
+              <title>
+                750
+              </title>
+            </path>
+          </g>
+        </svg>
+      </div>
+      <h3>
+        history
+      </h3>
+      <ul
+        class="list"
+        id="list"
+      >
+        <li
+          class="plus"
+          data-testid="transaction0"
+        >
+          Salary
+           
+          <span>
+            +
+            $
+            2000
+          </span>
+          <button
+            class="delete-btn"
+            data-testid="btntransaction0"
+          >
+            x
+          </button>
+          <button
+            type="button"
+          >
+            Edit
+          </button>
+        </li>
+        <li
+          class="minus"
+          data-testid="transaction1"
+        >
+          Book
+           
+          <span>
+            -
+            $
+            100
+          </span>
+          <button
+            class="delete-btn"
+            data-testid="btntransaction1"
+          >
+            x
+          </button>
+          <button
+            type="button"
+          >
+            Edit
+          </button>
+        </li>
+        <li
+          class="plus"
+          data-testid="transaction2"
+        >
+          Camera
+           
+          <span>
+            +
+            $
+            750
+          </span>
+          <button
+            class="delete-btn"
+            data-testid="btntransaction2"
+          >
+            x
+          </button>
+          <button
+            type="button"
+          >
+            Edit
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div
+      data-testid="addTransaction"
+      style="width: 40%;"
+    >
+      <h3>
+        add_new_transaction
+      </h3>
+      <form
+        id="form"
+      >
+        <div
+          class="form-control"
+        >
+          <label
+            for="text"
+          >
+            text
+          </label>
+          <input
+            id="text"
+            placeholder="enter_text..."
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="form-control"
+        >
+          <label
+            for="amount"
+          >
+            amount
+             
+            <br />
+            (
+            negative
+             - 
+            expense
+            , 
+            positive
+             - 
+            income
+            )
+          </label>
+          <input
+            id="amount"
+            placeholder="enter_amount..."
+            type="number"
+            value="0"
+          />
+        </div>
+        <button
+          class="btn"
+          data-testid="btnAddTransaction"
+          style="background-color: lightblue;"
+        >
+          add_transaction
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`fire event 1`] = `
 <div>
   <div>

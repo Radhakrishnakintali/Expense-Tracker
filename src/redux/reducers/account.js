@@ -15,7 +15,17 @@ export default function account(state = initialState, action) {
         case "ADD_TRANSACTION":
             return {
                 ...state,
-                transactions: [action.payload, ...state.transactions]
+                transactions: [...state.transactions, action.payload]
+            }
+        case "UPDATE_TRANSACTION":
+            return {
+                ...state,
+                transactions: state.transactions.map( transaction => {
+                    if (transaction.id === action.payload.id) {
+                        return action.payload;
+                    }
+                    return transaction;
+                })
             }
         default:
             return state;
