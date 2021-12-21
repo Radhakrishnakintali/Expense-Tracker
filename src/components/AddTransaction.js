@@ -2,12 +2,12 @@ import React, {useEffect, useState} from 'react';
 import { bindActionCreators } from 'redux';
 import { useDispatch } from 'react-redux';
 import * as actions from '../redux/actions/accounts';
-import useTranslation from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { popper } from '@popperjs/core';
 
 export const AddTransaction = (props) => {
-    // const { t } = useTranslation();
-    const { t } = jest ? { t: s => s } : useTranslation.useTranslation();
+     const { t } = useTranslation();
+    //const { t } = jest ? { t: s => s } : useTranslation.useTranslation();
     const [text, setText] = useState("");
     const [amount, setAmount] = useState(0);
     const [id, setId] = useState(0);

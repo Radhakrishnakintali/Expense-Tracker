@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import  useTranslation  from "react-i18next";
+import  { useTranslation }  from "react-i18next";
 import { Transaction } from './Transaction';
 import { MysteriousSankey } from './MysteriousSankey';
 import { AddTransaction } from './AddTransaction';
@@ -9,8 +9,8 @@ import { AddTransaction } from './AddTransaction';
 export const TransactionList = (props) => {
     const {accounts} = useSelector((accounts) => accounts);
     const [transactionData, setTransactionData] = useState({});
-    //const { t } = useTranslation();
-    const { t } = jest ? { t: s => s } : useTranslation.useTranslation();
+    const { t } = useTranslation();
+    //const { t } = jest ? { t: s => s } : useTranslation.useTranslation();
      
     let count = 0;
 

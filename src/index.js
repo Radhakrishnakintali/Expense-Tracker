@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-import i18next from './services/i18n';
+import  './services/i18n';
 // import i18n from "i18next";
 // import { initReactI18next } from "react-i18next";
 // import LanguageDetector from 'i18next-browser-languagedetector';
@@ -39,7 +39,7 @@ import 'flag-icon-css/css/flag-icons.min.css';
 //     }
 //   });
 
-console.log('i18next', i18next) // if I uncomment this, it works on test server
+//console.log('i18next', i18next) // if I uncomment this, it works on test server
 
 ReactDOM.render(
   
